@@ -74,17 +74,17 @@ p {
 
   .section-letter {
     float: left;
-    width: 10%;
+    width: 25%;
   }
 
   .section-body {
     padding: 1rem;
     float: left;
-    width: 80%;
+    width: 50%;
   }
 
   .section-icon {
-    width: 10%;
+    width: 25%;
     float: right;
   }
 
