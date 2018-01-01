@@ -75,10 +75,11 @@ p {
   .section-letter {
     float: left;
     width: 25%;
+    padding: 1rem;
   }
 
   .section-body {
-    padding: 1rem;
+    padding: 1.3rem;
     float: left;
     width: 50%;
   }
@@ -86,6 +87,7 @@ p {
   .section-icon {
     width: 25%;
     float: right;
+    padding: 1rem;
   }
 
 }
