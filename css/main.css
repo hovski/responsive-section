@@ -51,6 +51,19 @@ p {
   float: left;
 }
 
-.section-body {
-  padding: 1rem;
+@media only screen and (min-width: 25em) {
+
+  html {
+    font-size: 100%;
+    line-height: 1.3;
+  }
+
+  .section-letter {
+    padding: 1.3rem;
+  }
+
+  .section-icon {
+    padding: 1.3rem;
+  }
+
 }
