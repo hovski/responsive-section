@@ -18,13 +18,14 @@ html {
 }
 
 body {
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
 section {
   overflow: hidden;
   background-color: #e5c30a;
+  padding: 1rem;
 }
 
 .img-flex {
@@ -64,9 +65,13 @@ section p {
   }
 
   .section-letter {
-    width: 50%;
-    float: left;
+    width: 40%;
   }
+
+  .section-icon {
+    width: 40%;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -92,6 +97,10 @@ section p {
     width: 25%;
     float: right;
     padding: 1rem;
+  }
+
+  section {
+    padding: 0;
   }
 
 }
